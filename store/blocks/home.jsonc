@@ -1,18 +1,18 @@
 {
-  "store.home": { 
+  "store.home": {
     "blocks": [
       "rich-text",
-      "info-card#button-right",
+      "info-card",
       "info-card#button-left"
     ]
   },
-  "rich-text" : {
-    "props" : {
-      "text" : "**Hello, World!**",
-      "textPosition" : "RIGHT"
+  "rich-text": {
+    "props": {
+      "text": "**Hello, World!**",
+      "textPosition": "RIGHT"
     }
   },
-  "info-card#button-right": {
+  "info-card": {
     "props": {
       "isFullModeStyle": false,
       "textPosition": "right",
