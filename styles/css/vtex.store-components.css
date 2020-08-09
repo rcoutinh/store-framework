@@ -1,10 +1,12 @@
 .infoCardHeadline {
     font-family: serif;
     font-size: 2.25rem;
-    font-weight: normal;
-    color: gray;
+    font-weight: bold;
+    color: black;
     border: 2px solid black;
-    padding: 24px;    
+    padding: 0;
+    max-width: 1260px;
+    margin: 0 auto;
 }
 
 .infoCardCallActionContainer :global(.vtex-button) {
@@ -23,11 +25,16 @@
   background-color: #edcfd1;
   font-weight: bold;
   color: black;
-  padding: 0;
   max-width: 1260px;
   margin: 0 auto;
+  padding: 0;
 }
 
 .infoCardContainer--metal {
-  background-color: #e1e1e1
+  background-color: #e1e1e1;
+  font-weight: bold;
+  color: black;
+  max-width: 1260px;
+  margin: 0 auto;
+  padding: 0;
 }
